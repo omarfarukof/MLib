@@ -3,5 +3,16 @@ name = "mlib"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "Omar Faruk", email = "omarfaruk20@iut-dhaka.edu" }
+]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "marimo>=0.11.0",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
