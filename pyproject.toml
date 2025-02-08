@@ -11,8 +11,15 @@ dependencies = [
     "marimo>=0.11.0",
     "numpy>=2.2.2",
     "pandas>=2.2.3",
+    "scipy>=1.15.1",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.10.0",
+    "pytest>=8.3.4",
+]
